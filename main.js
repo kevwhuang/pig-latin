@@ -29,8 +29,8 @@ const pigLatin = () => {
 
 const rearrange = (word) => {
     // Find first index of letter types
-    firstConsonant = word.search(/[^aeiou]/);
-    firstVowel = word.search(/[aeiou]/);
+    const firstConsonant = word.search(/[^aeiou]/);
+    const firstVowel = word.search(/[aeiou]/);
 
     // Edge case: only consonants
     if (firstConsonant !== -1 && firstVowel === -1) {
