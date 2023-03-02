@@ -1,0 +1,53 @@
+* {
+    color: white;
+    left: 50%;
+    letter-spacing: 1px;
+}
+
+body {
+    background: black;
+    overflow-x: hidden;
+}
+
+button {
+    background: slateblue;
+    border-radius: 0.5pc;
+    cursor: default;
+    font-size: 2pc;
+    left: 0;
+    margin-bottom: 1pc;
+    padding: 0.5pc 2pc;
+    position: relative;
+}
+
+button:first-child {
+    margin-bottom: 2pc;
+}
+
+div {
+    position: absolute;
+    transform: translate(-50%, 2.5pc);
+    width: 75%;
+}
+
+p {
+    font-size: 1.5pc;
+    padding: 0.5pc;
+    position: relative;
+    transform: translateX(-50%);
+    user-select: all;
+    word-wrap: break-word;
+}
+
+textarea {
+    border: 1px solid white;
+    border-radius: 0.5pc;
+    display: block;
+    font-size: 1.5pc;
+    margin-bottom: 2pc;
+    max-height: 20pc;
+    min-height: 2.5pc;
+    padding: 0.5pc;
+    resize: vertical;
+    width: 100%;
+}
